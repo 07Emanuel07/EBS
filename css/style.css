@@ -1,0 +1,516 @@
+/* - Emanuel Biruk Seifegebreal - Bewerbung um ein Schulpraktikum von 23.01.23 bis 03.02.23  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/*Navabar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+}
+
+.navbar.top {
+  background: transparent;
+}
+
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .logo {
+  font-weight: 400;
+}
+
+/* Header */
+.showcase {
+  background: url('/Choosed_Pics_for_Application/Emanuel_showcase_pic.jpg') no-repeat center center/cover;
+  background-color: #fff;
+  opacity: 0.98;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.showcase .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.showcase .content h1 {
+  font-size: 55px;
+}
+
+.showcase .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+
+.showcase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+.showcase * {
+  z-index: 10;
+}
+
+/* Icons */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+#projekte img:hover {
+  opacity: 0.7;
+}
+
+.team img {
+  border-radius: 50%;
+}
+
+/* about */
+.column .column-2 p {
+  padding: 0 5px;
+}
+
+.btn-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+  padding: 0 4% 3rem 4%;
+}
+
+.btn-position a {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-position a i {
+  padding-left: 10px;
+  padding-bottom: 3px;
+
+}
+
+.btn-outline-2 {
+  background: transparent;
+  padding: 14.5px 30px;
+  border: 1px solid #fff;
+}
+
+/* about-b Meine technischen Fähigkeiten */
+#about-b {
+  margin-top: 5vh;
+  padding: 3rem 0;
+  position: relative;
+  height: 70vh;
+}
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+
+#about-b .progress div {
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background: #28a745;
+}
+
+#about-b .container h2 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+/* Projekte */
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 90vw;
+  overflow: hidden;
+  margin: 3rem 0;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.position-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.position-1 h3 {
+  padding-top: 10px;
+}
+
+
+.position-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.position-2 h3 {
+  padding-top: 10px;
+}
+
+
+.panel {
+  background-size: cover auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  border-radius: 50px;
+  color: #f4f4f4;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+.picture {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
+}
+
+.picture h3 {
+  position: absolute;
+  left: 12rem;
+}
+
+.picture-1 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_01_resized.jpg');
+}
+
+.picture-2 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_02_resized.jpg');
+}
+
+.picture-3 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_03_resized.jpg');
+}
+
+.picture-4 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_04_resized.jpg');
+}
+
+.picture-5 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_05_resized.jpg');
+}
+
+.picture-6 {
+  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_06_resized.jpg');
+}
+
+
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 5rem;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #28a745;
+}
+
+/* Mobile */
+
+
+@media(max-width:1400px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .btn-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+    padding: 0 4% 3rem 4%;
+  }
+
+  /* .column-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .column-mobile a {
+    margin-bottom: 1px;
+  } */
+
+  .space {
+    padding: 0;
+  }
+
+  .position-1,
+  .position-2 {
+    padding: 1%;
+  }
+}
+
+@media(max-width:768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .btn-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+    padding: 0 4% 3rem 5%;
+  }
+}
+
+
+
+
+@media(max-width: 500px) {
+  .container-1 {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  #about-b {
+    height: 100vh;
+  }
+
+  .btn-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.4rem;
+  }
+
+  .column-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .column-mobile a {
+    margin-bottom: 1px;
+  }
+
+  .space {
+    padding: 0;
+  }
+}
