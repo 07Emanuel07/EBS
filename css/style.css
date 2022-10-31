@@ -282,9 +282,10 @@ img {
   font-size: 24px;
   position: absolute;
   bottom: 20px;
-  left: 30px;
+  left: 5%;
   margin: 0;
   opacity: 0;
+  background-blend-mode: multiply;
 }
 
 .panel.active {
@@ -296,15 +297,15 @@ img {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+.h3-correction h3 {
+  position: absolute;
+  left: 20%;
+}
 
 .picture {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
 }
 
-.picture h3 {
-  position: absolute;
-  left: 12rem;
-}
 
 .picture-1 {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_01_resized.jpg');
@@ -359,9 +360,11 @@ img {
   color: #28a745;
 }
 
+#not-working {
+  display: none;
+}
+
 /* Mobile */
-
-
 @media(max-width:1400px) {
   .navbar {
     flex-direction: column;
@@ -372,11 +375,6 @@ img {
   .navbar a {
     padding: 10px 10px;
     margin: 0 3px;
-  }
-
-  .flex-items {
-    flex-direction: column;
-    justify-content: center;
   }
 
   .flex-columns .column,
@@ -403,19 +401,6 @@ img {
     padding: 0 4% 3rem 4%;
   }
 
-  /* .column-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  .column-mobile a {
-    margin-bottom: 1px;
-  } */
-
   .space {
     padding: 0;
   }
@@ -438,10 +423,6 @@ img {
     margin: 0 3px;
   }
 
-  .flex-items {
-    flex-direction: column;
-  }
-
   .flex-columns .column,
   .flex-grid .column {
     flex: 100%;
@@ -450,6 +431,10 @@ img {
 
   .team img {
     width: 70%;
+  }
+
+  #about-b {
+    height: 75vh;
   }
 
   .picture {
@@ -465,10 +450,18 @@ img {
     gap: 5%;
     padding: 0 4% 3rem 5%;
   }
+
+  .flex-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+  }
 }
-
-
-
 
 @media(max-width: 500px) {
   .container-1 {
@@ -485,7 +478,7 @@ img {
   }
 
   #about-b {
-    height: 100vh;
+    height: 80vh;
   }
 
   .btn-position {
@@ -497,20 +490,36 @@ img {
     gap: 0.4rem;
   }
 
-  .column-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  .column-mobile a {
-    margin-bottom: 1px;
-  }
-
   .space {
     padding: 0;
+  }
+
+  .flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+
+  header,
+  main,
+  section {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  #not-working {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }
