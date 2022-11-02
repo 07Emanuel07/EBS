@@ -29,7 +29,7 @@
 .btn {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 1.1vh 3.2vh;
   color: #fff;
   background-color: #28a745;
   border: none;
@@ -123,16 +123,17 @@
 }
 
 .flex-columns h2 {
-  font-size: 40px;
+  font-size: 5vh;
   font-weight: 100;
 }
 
 .flex-columns h4 {
   margin-bottom: 10px;
+  font-size: 1.4vh;
 }
 
 .flex-columns p {
-  font-size: 1.1rem;
+  font-size: 2vh;
   margin: 20px 0;
 }
 

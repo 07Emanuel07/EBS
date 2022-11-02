@@ -64,8 +64,9 @@ img {
 
 .navbar a {
   color: #fff;
-  padding: 10px 20px;
+  padding: 1vh 1.5vh;
   margin: 0 5px;
+  font-size: 2vh;
 }
 
 .navbar a:hover {
@@ -101,11 +102,11 @@ img {
 }
 
 .showcase .content h1 {
-  font-size: 55px;
+  font-size: 6vh;
 }
 
 .showcase .content p {
-  font-size: 23px;
+  font-size: 2.5vh;
   max-width: 600px;
   margin: 20px 0 30px;
 }
@@ -144,10 +145,6 @@ img {
 
 #projekte img:hover {
   opacity: 0.7;
-}
-
-.team img {
-  border-radius: 50%;
 }
 
 /* about */
@@ -190,12 +187,12 @@ img {
   margin-top: 5vh;
   padding: 3rem 0;
   position: relative;
-  height: 70vh;
+  height: 75vh;
 }
 
 #about-b .progress {
   overflow: hidden;
-  height: 20px;
+  height: 2.5vh;
   background: #ccc;
   border-radius: 5px;
   margin-bottom: 0.6rem;
@@ -209,8 +206,12 @@ img {
 }
 
 #about-b .container h2 {
-  font-size: 35px;
+  font-size: 3.5vh;
   margin: 20px 0;
+}
+
+.container h4 {
+  font-size: 1.6vh;
 }
 
 /* Projekte */
@@ -232,8 +233,6 @@ img {
   align-items: center;
   width: 100%;
 }
-
-
 
 .position-1 {
   display: flex;
@@ -267,7 +266,7 @@ img {
   background-size: cover auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 74vh;
   border-radius: 50px;
   color: #f4f4f4;
   cursor: pointer;
@@ -279,7 +278,7 @@ img {
 
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 2.5vh;
   position: absolute;
   bottom: 20px;
   left: 5%;
@@ -297,11 +296,11 @@ img {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.h3-correction h3 {
+/* .h3-correction h3 {
   position: absolute;
   left: 200px;
   bottom: 20px;
-}
+} */
 
 .picture {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
@@ -371,7 +370,7 @@ img {
 
 /* Mobile */
 
-@media(min-width: 2000px) {
+@media(min-width: 4000px) {
 
   header,
   main,
@@ -391,7 +390,56 @@ img {
   }
 }
 
-@media(max-width:1400px) {
+
+
+
+
+@media(min-width:2000px) {}
+
+
+
+
+
+
+
+/* @media(min-width:1401px)(max-width: 2000px) {
+  /* .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    /* margin: 0 3px;
+  } */
+
+/* .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  } */
+
+.btn-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+  padding: 0 4% 3rem 3%;
+}
+
+.space {
+  padding: 0;
+}
+
+.position-1,
+.position-2 {
+  padding: 1%;
+}
+
+@media(max-width:1475px) {
   .navbar {
     flex-direction: column;
     height: 120px;
@@ -407,10 +455,6 @@ img {
   .flex-grid .column {
     flex: 100%;
     max-width: 100%;
-  }
-
-  .team img {
-    width: 70%;
   }
 
   .picture {
@@ -455,14 +499,6 @@ img {
     max-width: 100%;
   }
 
-  .team img {
-    width: 70%;
-  }
-
-  #about-b {
-    height: 78vh;
-  }
-
   .picture {
     display: none;
   }
@@ -479,7 +515,7 @@ img {
 
   .flex-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
