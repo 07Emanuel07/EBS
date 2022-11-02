@@ -296,12 +296,6 @@ img {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-/* .h3-correction h3 {
-  position: absolute;
-  left: 200px;
-  bottom: 20px;
-} */
-
 .picture {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
 }
@@ -330,8 +324,6 @@ img {
 .picture-6 {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_06_resized.jpg');
 }
-
-
 
 /* Footer */
 
@@ -390,35 +382,7 @@ img {
   }
 }
 
-
-
-
-
 @media(min-width:2000px) {}
-
-
-
-
-
-
-
-/* @media(min-width:1401px)(max-width: 2000px) {
-  /* .navbar {
-    flex-direction: column;
-    height: 120px;
-    padding: 20px;
-  }
-
-  .navbar a {
-    padding: 10px 10px;
-    /* margin: 0 3px;
-  } */
-
-/* .flex-columns .column,
-  .flex-grid .column {
-    flex: 100%;
-    max-width: 100%;
-  } */
 
 .btn-position {
   display: flex;
