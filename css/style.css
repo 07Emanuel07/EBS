@@ -30,11 +30,16 @@ h2 {
   line-height: 1.2;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
+
 h4 {
   text-transform: uppercase;
 }
 
 p {
+  font-size: 1.2rem;
   margin: 10px 0;
 }
 
@@ -184,7 +189,7 @@ img {
   margin-top: 5vh;
   padding: 3rem 0;
   position: relative;
-  height: 75vh;
+  height: 78vh;
 }
 
 #about-b .progress {
@@ -263,7 +268,7 @@ img {
   background-size: cover auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 74vh;
+  height: 65vh;
   border-radius: 50px;
   color: #f4f4f4;
   cursor: pointer;
@@ -428,7 +433,7 @@ img {
 
   .flex-columns .column,
   .flex-grid .column {
-    flex: 100%;
+    flex: 50%;
     max-width: 100%;
   }
 
@@ -456,7 +461,15 @@ img {
   }
 }
 
-@media(max-width:768px) {
+@media(max-width:1200px) {
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+  }
+}
+
+@media(max-width:860px) {
   .navbar {
     flex-direction: column;
     height: 120px;
@@ -490,9 +503,9 @@ img {
 
   .flex-items {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -501,6 +514,50 @@ img {
 }
 
 @media(max-width: 500px) {
+  .logo {
+    font-size: 3vh;
+    font-weight: 400;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+    height: 25vh;
+    padding: 0 4% 3rem 5%;
+
+  }
+
+  .flex-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #about-b {
+    height: 80vh;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+
+@media(max-width: 360px) {
 
   header,
   main,
