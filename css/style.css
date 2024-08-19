@@ -143,13 +143,10 @@ img {
   margin-bottom: 15px;
 }
 
-#projekte img:hover {
-  opacity: 0.7;
-}
-
 /* about */
 .column .column-2 p {
   padding: 0 5px;
+ 
 }
 
 .btn-position {
@@ -324,6 +321,20 @@ img {
 .picture-6 {
   background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_06_resized.jpg');
 }
+/*  Python project Section */
+#Tic-Tac-Toe {
+  height: 35%;
+  width: 35%;
+}
+
+.replit-link {
+  color: #28a745;
+}
+
+.replit-link:hover {
+  opacity: 0.7;
+}
+
 
 /* Footer */
 
