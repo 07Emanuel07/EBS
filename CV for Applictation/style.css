@@ -33,6 +33,16 @@ h1 {
   font-size: 2.3rem;
 }
 
+ul li p a {
+  color: #fff;
+  font-weight: 700;
+}
+
+ul li p a:hover {
+  color: var(--primary-color);
+}
+
+
 #timeline ul {
   background: var(--primary-color);
   padding-top: 50px; 
