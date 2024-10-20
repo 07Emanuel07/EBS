@@ -88,7 +88,7 @@ img {
 
 /* Header */
 .showcase {
-  background: url('/Choosed_Pics_for_Application/Emanuel_showcase_pic.jpg') no-repeat center center/cover;
+  background: url('../Choosed_Pics_for_Application/Emanuel_showcase_pic.jpg') no-repeat center center/cover;
   background-color: #fff;
   opacity: 0.98;
   height: 100vh;
@@ -300,32 +300,32 @@ img {
 }
 
 .picture {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Emanuel_Kl_9A_Seelenlandschaft_Kunst_9_resized.jpg');
 }
 
 
 .picture-1 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_01_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_01_resized.jpg');
 }
 
 .picture-2 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_02_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_02_resized.jpg');
 }
 
 .picture-3 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_03_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_03_resized.jpg');
 }
 
 .picture-4 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_04_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_04_resized.jpg');
 }
 
 .picture-5 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_05_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_05_resized.jpg');
 }
 
 .picture-6 {
-  background-image: url('/Choosed_Pics_for_Application/Resized_Pics/Pic_06_resized.jpg');
+  background-image: url('../Choosed_Pics_for_Application/Resized_Pics/Pic_06_resized.jpg');
 }
 /*  Python project Section */
 #Tic-Tac-Toe {
