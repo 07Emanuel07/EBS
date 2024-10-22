@@ -152,7 +152,7 @@ img {
 /* about */
 .column .column-2 p {
   padding: 0 5px;
- 
+  text-align: justify;
 }
 
 .btn-position {
