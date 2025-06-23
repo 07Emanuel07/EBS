@@ -77,12 +77,12 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  padding-left: 6%;
+
 }
 
-.flex-items>div {
+/* .flex-items>div {
   padding: 20px;
-}
+} */
 
 /* Flex columns */
 .flex-columns.flex-reverse .row {
